@@ -3,3 +3,41 @@
   margin:0;
   padding:0;
 }
+
+html {
+  font-family:Helvetica;
+}
+
+nav {
+  background: black;
+}
+
+ul {
+  display:flex;
+  justify-content:flex-end;
+  background:black;
+  padding: 1rem 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul a {
+  color:white;
+  text-decoration: none;
+  margin: 5rem;
+}
+
+a:hover {
+  color: green;
+}
+
+.logo {
+  flex:4;
+}
+
+.pageContainer {
+  width:80%;
+  margin: 0 auto;
+}
